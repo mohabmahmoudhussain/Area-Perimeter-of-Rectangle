@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main () {
+float x, y, area, perimeter;
+printf("Enter The First Side Length of a Rectangle");
+scanf(" %f", &x);
+printf("Enter the Second Side Length of a Rectangle");
+scanf("%f", &y);
+area = (float) (x * y);
+perimeter = (float) (2*x + 2*y);
+printf("The Area of the rectangle is = %0.3f\n", area);
+printf("The Perimeter of the rectangle is =%0.3f\n", perimeter);
+return 0;
+}
